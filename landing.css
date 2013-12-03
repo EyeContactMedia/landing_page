@@ -1,0 +1,81 @@
+
+    body 
+
+    .content {
+        text-align:center;
+        margin:0 0 60px;
+    }
+
+    nav {
+      width: 100%;
+      margin: 20px 0; }
+      nav ul {
+          list-style: none;
+          overflow: hidden; }
+          nav ul li {
+              float: left;
+              width: 20%; }
+              nav ul li a {
+                  text-align: center;
+                  padding: 8px 0;
+                  display: block;
+                  width: 100%;
+                  background: #cdeb8e; /* Old browsers */
+                  background: -moz-linear-gradient(top,  
+                    #cdeb8e 0%, #b0ca34 100%); /* FF3.6+ */
+                  background: -webkit-gradient(linear, left top, left bottom, 
+                    color-stop(0%,#cdeb8e), 
+                    color-stop(100%,#b0ca34)); /* Chrome,Safari4+ */
+                  background: -webkit-linear-gradient(top,  
+                    #cdeb8e 0%,#b0ca34 100%); /* Chrome10+,Safari5.1+ */
+                  background: -o-linear-gradient(top,  
+                    #cdeb8e 0%,#b0ca34 100%); /* Opera 11.10+ */
+                  background: linear-gradient(to bottom,  
+                    #cdeb8e 0%,#b0ca34 100%); /* W3C, IE10+ */
+                  filter: progid:DXImageTransform.Microsoft.gradient( 
+                    startColorstr='#cdeb8e', 
+                    endColorstr='#b0ca34',GradientType=0 ); /* IE6-9 */
+              }
+
+              .btn-simple {
+                background-color:transparent;
+                background-image:none;
+            }
+
+            .big-btn {
+                margin: 80px 0 108px;
+            }
+
+            .big-btn .btn {
+                border-radius: 6px 6px 6px 6px;
+                display: inline-block;
+                font-size: 30px;
+                line-height: 1;
+                margin-bottom: 27px;
+                padding: 19px 24px;
+                text-align: center;
+                width: 60%;
+            }
+
+            .play {
+                margin:20px 0;
+                display:block;
+            }
+
+
+            .bgimg {
+                background:url('IMG_02501.JPG') no-repeat center center;
+                height: 500px;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            } 
+
+            h1 {
+                font-family: helvetica;
+                top:100px;
+
+            }
+
+        }
